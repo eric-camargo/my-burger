@@ -1,0 +1,31 @@
+.BuildControls {
+  width: 100%;
+  background-color: #2e94c7;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 2px 1px #1c536f;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+.OrderButton {
+  width: auto;
+  background-color: rgb(179, 41, 41);
+  padding: 25px 45px;
+  color: white;
+  font: inherit;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.OrderButton:disabled {
+  background-color: rgb(208, 147, 147);
+  color: white;
+}
+.OrderButton:hover:disabled {
+  cursor: not-allowed;
+}
